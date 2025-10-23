@@ -1,0 +1,114 @@
+{
+  "Header": {
+    "features": "Features",
+    "about": "About",
+    "login": "Log In",
+    "startFree": "Start Free"
+  },
+  "Hero": {
+    "title1": "Build Your Online Store",
+    "title2": "on Social Media",
+    "subtitle": "Koopi.LK helps Sri Lankan sellers manage their business across Instagram, TikTok, Facebook, and WhatsApp - all from one powerful platform.",
+    "primaryCta": "Get Started Free",
+    "secondaryCta": "Watch Demo"
+  },
+  "Features": {
+    "title": "Everything You Need to Sell Online",
+    "subtitle": "Powerful features designed for modern social media sellers",
+    "card1": {
+      "title": "Lightning Fast Setup",
+      "description": "Launch your online store in minutes, not days. No technical knowledge required."
+    },
+    "card2": {
+      "title": "Social Media Integration",
+      "description": "Seamlessly connect Instagram, TikTok, Facebook, and WhatsApp to manage all sales channels."
+    },
+    "card3": {
+      "title": "Secure Payments",
+      "description": "Accept payments via bank transfers, mobile wallets, and cash on delivery - all locally supported."
+    },
+    "card4": {
+      "title": "Analytics & Insights",
+      "description": "Track sales, inventory, and customer behavior with powerful real-time analytics."
+    },
+    "card5": {
+      "title": "Customizable Storefront",
+      "description": "Create a beautiful, branded store that reflects your business identity."
+    },
+    "card6": {
+      "title": "24/7 Support",
+      "description": "Get help whenever you need it with our dedicated support team in Sinhala and English."
+    }
+  },
+  "Pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Start free, upgrade when you're ready",
+    "free": {
+      "title": "Free Plan",
+      "description": "Perfect for getting started",
+      "price": "LKR 0",
+      "period": "/month",
+      "features": [
+        "Up to 50 products",
+        "Instagram & WhatsApp integration",
+        "Basic analytics",
+        "Mobile payments support",
+        "Email support"
+      ],
+      "cta": "Start Free"
+    },
+    "pro": {
+      "title": "Pro Plan",
+      "badge": "Coming Soon",
+      "description": "For growing businesses",
+      "price": "TBD",
+      "features": [
+        "Unlimited products",
+        "All social media integrations",
+        "Advanced analytics & reports",
+        "Priority support",
+        "Custom domain",
+        "Marketing automation"
+      ],
+      "cta": "Coming Soon"
+    }
+  },
+  "CTA": {
+    "title": "Ready to Start Selling?",
+    "subtitle": "Join thousands of Sri Lankan sellers already growing their business with Koopi.LK",
+    "primaryCta": "Create Free Account",
+    "secondaryCta": "Talk to Sales"
+  },
+  "Footer": {
+    "copyright": "© 2025 Koopi.LK. All rights reserved.",
+    "terms": "Terms",
+    "privacy": "Privacy"
+  },
+  "login": {
+    "title": "Welcome back",
+    "subtitle": "Log in to your Koopi.LK account",
+    "email": "Email address",
+    "password": "Password",
+    "forgot": "Forgot password?",
+    "button": "Log In",
+    "noAccount": "Don't have an account?",
+    "signupLink": "Sign up"
+  },
+  "signup": {
+    "title": "Start selling today",
+    "subtitle": "Create your Koopi.LK account",
+    "name": "Full name",
+    "email": "Email address",
+    "password": "Password",
+    "confirm": "Confirm password",
+    "button": "Create Account",
+    "hasAccount": "Already have an account?",
+    "loginLink": "Log in",
+    "terms": "By signing up, you agree to our Terms of Service and Privacy Policy"
+  },
+  "NotFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, the page you're looking for doesn't exist or has been moved.",
+    "backToHome": "Go back home"
+  }
+}
