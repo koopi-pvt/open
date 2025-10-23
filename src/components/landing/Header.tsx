@@ -23,6 +23,9 @@ const Header = () => {
   };
 
   const handleLanguageChange = (locale: string) => {
+    // Store language preference in cookie
+    document.cookie = `NEXT_LOCALE=${locale}; path=/; max-age=31536000; SameSite=Lax`;
+    
     const newPath = `/${locale}${pathname.substring(3)}`;
     router.push(newPath);
     setIsLangOpen(false);

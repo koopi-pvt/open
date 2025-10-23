@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import { Mail, Lock } from 'lucide-react';
-import Header from '@/components/Header';
+import Header from '@/components/landing/Header';
 
 export default function LoginPage() {
   const t = useTranslations('login');

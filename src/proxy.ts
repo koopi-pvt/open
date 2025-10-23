@@ -7,27 +7,15 @@ import type { NextRequest } from 'next/server';
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
   
-  // Redirect root path based on user's preferred language
+  // Redirect root path based on user's stored language preference
   if (pathname === '/') {
-    // Get user's preferred language from Accept-Language header
-    const acceptLanguage = request.headers.get('accept-language');
+    // Check for stored language preference in cookie
+    const localeCookie = request.cookies.get('NEXT_LOCALE');
     let preferredLocale = 'en'; // default to English
     
-    if (acceptLanguage) {
-      // Parse the Accept-Language header to find the best matching locale
-      const languages = acceptLanguage.split(',').map(lang => {
-        const [locale] = lang.split(';');
-        return locale.trim().toLowerCase();
-      });
-      
-      // Check for Sinhala language codes (si, si-LK)
-      if (languages.some(lang => lang.startsWith('si'))) {
-        preferredLocale = 'si';
-      }
-      // Check for English language codes (en, en-US, en-GB, etc.)
-      else if (languages.some(lang => lang.startsWith('en'))) {
-        preferredLocale = 'en';
-      }
+    // If user has previously selected a language, use that
+    if (localeCookie && locales.includes(localeCookie.value as any)) {
+      preferredLocale = localeCookie.value;
     }
     
     // Create the redirect URL with the preferred locale
